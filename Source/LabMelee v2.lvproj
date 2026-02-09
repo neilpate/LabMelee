@@ -51,11 +51,9 @@
 				<Item Name="Wrap To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap To World.vi"/>
 			</Item>
 			<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
-			<Item Name="Blinker.lvclass" Type="LVClass" URL="../Application Specific/Blinker/Blinker.lvclass"/>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
 			<Item Name="Control State.lvclass" Type="LVClass" URL="../Application Specific/Control State/Control State.lvclass"/>
 			<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
-			<Item Name="HMI Messages.lvclass" Type="LVClass" URL="../Application Specific/HMI Messages/HMI Messages.lvclass"/>
 			<Item Name="Main INI.lvlib" Type="Library" URL="../Application Specific/Main INI/Main INI.lvlib"/>
 			<Item Name="Math.lvlib" Type="Library" URL="../Application Specific/Math/Math.lvlib"/>
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
@@ -158,7 +156,6 @@
 		</Item>
 		<Item Name="Windows" Type="Folder">
 			<Item Name="About Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/About/About Window.lvclass"/>
-			<Item Name="Status Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/Status/Status Window.lvclass"/>
 		</Item>
 		<Item Name="Globals.vi" Type="VI" URL="../Application Specific/Globals.vi"/>
 		<Item Name="Helper.vi" Type="VI" URL="../Helper.vi"/>
@@ -348,7 +345,7 @@
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Windows/Status Window.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Window behavior</Property>
 				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
