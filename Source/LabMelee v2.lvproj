@@ -28,10 +28,17 @@
 				<Item Name="Player.ctl" Type="VI" URL="../Application Specific/Controls/Player.ctl"/>
 				<Item Name="Ship.ctl" Type="VI" URL="../Application Specific/Controls/Ship.ctl"/>
 			</Item>
-			<Item Name="Ships" Type="Folder">
-				<Item Name="Arilou.lvclass" Type="LVClass" URL="../Application Specific/Ships/Arilou/Arilou.lvclass"/>
-				<Item Name="Chmmr.lvclass" Type="LVClass" URL="../Application Specific/Ships/Chmmr/Chmmr.lvclass"/>
-				<Item Name="Kohrah.lvclass" Type="LVClass" URL="../Application Specific/Ships/Kohrah/Kohrah.lvclass"/>
+			<Item Name="Elements" Type="Folder">
+				<Item Name="Ships" Type="Folder">
+					<Item Name="Arilou.lvclass" Type="LVClass" URL="../Application Specific/Ships/Arilou/Arilou.lvclass"/>
+					<Item Name="Chmmr.lvclass" Type="LVClass" URL="../Application Specific/Ships/Chmmr/Chmmr.lvclass"/>
+					<Item Name="Kohrah.lvclass" Type="LVClass" URL="../Application Specific/Ships/Kohrah/Kohrah.lvclass"/>
+					<Item Name="Ship.lvclass" Type="LVClass" URL="../Application Specific/Ship/Ship.lvclass"/>
+				</Item>
+				<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
+				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
+				<Item Name="Planet.lvclass" Type="LVClass" URL="../Application Specific/Planet/Planet.lvclass"/>
+				<Item Name="Thrust Dot.lvclass" Type="LVClass" URL="../Application Specific/Thrust Dot/Thrust Dot.lvclass"/>
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -50,20 +57,15 @@
 				<Item Name="Viewport Sizes.vi" Type="VI" URL="../Application Specific/Utility VIs/Viewport Sizes.vi"/>
 				<Item Name="Wrap To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap To World.vi"/>
 			</Item>
-			<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
 			<Item Name="Control State.lvclass" Type="LVClass" URL="../Application Specific/Control State/Control State.lvclass"/>
-			<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
 			<Item Name="Main INI.lvlib" Type="Library" URL="../Application Specific/Main INI/Main INI.lvlib"/>
 			<Item Name="Math.lvlib" Type="Library" URL="../Application Specific/Math/Math.lvlib"/>
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
-			<Item Name="Planet.lvclass" Type="LVClass" URL="../Application Specific/Planet/Planet.lvclass"/>
 			<Item Name="Resource Manager.lvclass" Type="LVClass" URL="../Application Specific/Resource Manager/Resource Manager.lvclass"/>
-			<Item Name="Ship.lvclass" Type="LVClass" URL="../Application Specific/Ship/Ship.lvclass"/>
 			<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 			<Item Name="System Config.lvclass" Type="LVClass" URL="../Application Specific/System Config/System Config.lvclass"/>
 			<Item Name="Texture.lvclass" Type="LVClass" URL="../Application Specific/Texture/Texture.lvclass"/>
-			<Item Name="Thrust Dot.lvclass" Type="LVClass" URL="../Application Specific/Thrust Dot/Thrust Dot.lvclass"/>
 		</Item>
 		<Item Name="Core Actors" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -278,7 +280,7 @@
 				<Property Name="Source[2].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Main Loop/Process.vi</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Show menu bar</Property>
@@ -338,14 +340,14 @@
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Initialise Actors.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Initialise/Initialise Actors.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].itemID" Type="Ref">/</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Window behavior</Property>
 				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
