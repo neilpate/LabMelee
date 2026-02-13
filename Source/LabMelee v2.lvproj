@@ -24,6 +24,35 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Application Specific" Type="Folder">
+			<Item Name="Actors" Type="Folder">
+				<Item Name="Core" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">0</Property>
+					<Item Name="Error Handler" Type="Folder">
+						<Item Name="Error Handler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/API/Error Handler Actor API.lvclass"/>
+						<Item Name="Error Handler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/Actor/Error Handler Actor.lvclass"/>
+					</Item>
+					<Item Name="Launcher" Type="Folder">
+						<Item Name="Launcher Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Launcher/API/Launcher Actor API.lvclass"/>
+						<Item Name="Launcher Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Launcher/Actor/Launcher Actor.lvclass"/>
+					</Item>
+					<Item Name="Main Controller" Type="Folder">
+						<Item Name="Main.rtm" Type="Document" URL="../Application Specific/Actors/Main Controller/Actor/Main.rtm"/>
+					</Item>
+					<Item Name="Task Scheduler" Type="Folder">
+						<Item Name="Task Scheduler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/API/Task Scheduler Actor API.lvclass"/>
+						<Item Name="Task Scheduler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/Actor/Task Scheduler Actor.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Views" Type="Folder">
+					<Item Name="Dev View.lvclass" Type="LVClass" URL="../Application Specific/Views/Dev/Dev View.lvclass"/>
+					<Item Name="Info View.lvclass" Type="LVClass" URL="../Application Specific/Views/Info/Info View.lvclass"/>
+					<Item Name="Main View.lvclass" Type="LVClass" URL="../Application Specific/Views/Main/Main View.lvclass"/>
+					<Item Name="Process Input View.lvclass" Type="LVClass" URL="../Application Specific/Views/Process Input/Process Input View.lvclass"/>
+				</Item>
+				<Item Name="Windows" Type="Folder">
+					<Item Name="About Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/About/About Window.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Player.ctl" Type="VI" URL="../Application Specific/Controls/Player.ctl"/>
 				<Item Name="Ship.ctl" Type="VI" URL="../Application Specific/Controls/Ship.ctl"/>
@@ -43,15 +72,12 @@
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="Data Store Access" Type="Folder"/>
 				<Item Name="Calculate Delta.vi" Type="VI" URL="../Application Specific/Utility VIs/Calculate Delta.vi"/>
 				<Item Name="Constants.ctl" Type="VI" URL="../Application Specific/Utility VIs/Constants.ctl"/>
 				<Item Name="Constants.vi" Type="VI" URL="../Application Specific/Utility VIs/Constants.vi"/>
-				<Item Name="Generate Status Message From Number.vi" Type="VI" URL="../Application Specific/Utility VIs/Generate Status Message From Number.vi"/>
 				<Item Name="get Application Ini File.vi" Type="VI" URL="../Application Specific/Utility VIs/get Application Ini File.vi"/>
 				<Item Name="get Config Directory.vi" Type="VI" URL="../Application Specific/Utility VIs/get Config Directory.vi"/>
 				<Item Name="get Data Directory.vi" Type="VI" URL="../Application Specific/Utility VIs/get Data Directory.vi"/>
-				<Item Name="get HMI Messages Paths.vi" Type="VI" URL="../Application Specific/Utility VIs/get HMI Messages Paths.vi"/>
 				<Item Name="get Resource Directory.vi" Type="VI" URL="../Application Specific/Utility VIs/get Resource Directory.vi"/>
 				<Item Name="Load ANI Textures.vi" Type="VI" URL="../Application Specific/Utility VIs/Load ANI Textures.vi"/>
 				<Item Name="Target Frame Period.vi" Type="VI" URL="../Application Specific/Utility VIs/Target Frame Period.vi"/>
@@ -66,24 +92,6 @@
 			<Item Name="Resource Manager.lvclass" Type="LVClass" URL="../Application Specific/Resource Manager/Resource Manager.lvclass"/>
 			<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 			<Item Name="Texture.lvclass" Type="LVClass" URL="../Application Specific/Texture/Texture.lvclass"/>
-		</Item>
-		<Item Name="Core Actors" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Error Handler" Type="Folder">
-				<Item Name="Error Handler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/API/Error Handler Actor API.lvclass"/>
-				<Item Name="Error Handler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/Actor/Error Handler Actor.lvclass"/>
-			</Item>
-			<Item Name="Launcher" Type="Folder">
-				<Item Name="Launcher Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Launcher/API/Launcher Actor API.lvclass"/>
-				<Item Name="Launcher Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Launcher/Actor/Launcher Actor.lvclass"/>
-			</Item>
-			<Item Name="Main Controller" Type="Folder">
-				<Item Name="Main.rtm" Type="Document" URL="../Application Specific/Actors/Main Controller/Actor/Main.rtm"/>
-			</Item>
-			<Item Name="Task Scheduler" Type="Folder">
-				<Item Name="Task Scheduler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/API/Task Scheduler Actor API.lvclass"/>
-				<Item Name="Task Scheduler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/Actor/Task Scheduler Actor.lvclass"/>
-			</Item>
 		</Item>
 		<Item Name="External" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -144,15 +152,6 @@
 			<Item Name="Timer.lvclass" Type="LVClass" URL="../Re-use Libraries/Timer/Timer.lvclass"/>
 			<Item Name="Utility.lvlib" Type="Library" URL="../Re-use Libraries/Utility/Utility.lvlib"/>
 		</Item>
-		<Item Name="Views" Type="Folder">
-			<Item Name="Dev View.lvclass" Type="LVClass" URL="../Application Specific/Views/Dev/Dev View.lvclass"/>
-			<Item Name="Info View.lvclass" Type="LVClass" URL="../Application Specific/Views/Info/Info View.lvclass"/>
-			<Item Name="Main View.lvclass" Type="LVClass" URL="../Application Specific/Views/Main/Main View.lvclass"/>
-			<Item Name="Process Input View.lvclass" Type="LVClass" URL="../Application Specific/Views/Process Input/Process Input View.lvclass"/>
-		</Item>
-		<Item Name="Windows" Type="Folder">
-			<Item Name="About Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/About/About Window.lvclass"/>
-		</Item>
 		<Item Name="Globals.vi" Type="VI" URL="../Application Specific/Globals.vi"/>
 		<Item Name="Helper.vi" Type="VI" URL="../Helper.vi"/>
 		<Item Name="Main Controller Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Main Controller/API/Main Controller Actor API.lvclass"/>
@@ -191,7 +190,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{C94275CC-CCC7-45DF-B57E-8C88F9693757}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Core Actors/Launcher/Launcher Actor.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Launcher/Launcher Actor.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/On-Screen Keyboard Window.lvclass/Framework/Process.vi</Property>
@@ -250,7 +249,7 @@
 				<Property Name="Source[13].properties[9].value" Type="Str">Centered</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Core Actors/Error Handler/Error Handler Actor.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Error Handler/Error Handler Actor.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Show menu bar</Property>
@@ -327,7 +326,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Reuse Framework/Notify Icon.lvclass/Icons</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Core Actors/Error Handler/Error Handler Actor.lvclass/API/Launch.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Error Handler/Error Handler Actor.lvclass/API/Launch.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -346,7 +345,7 @@
 				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Windows/About Window.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Application Specific/Actors/Windows/About Window.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Window behavior</Property>
 				<Property Name="Source[9].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Window has title bar</Property>
