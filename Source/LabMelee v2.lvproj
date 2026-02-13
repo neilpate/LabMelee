@@ -37,6 +37,7 @@
 				</Item>
 				<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
 				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
+				<Item Name="Galaxy.lvclass" Type="LVClass" URL="../Application Specific/Galaxy/Galaxy.lvclass"/>
 				<Item Name="Planet.lvclass" Type="LVClass" URL="../Application Specific/Planet/Planet.lvclass"/>
 				<Item Name="Thrust Dot.lvclass" Type="LVClass" URL="../Application Specific/Thrust Dot/Thrust Dot.lvclass"/>
 			</Item>
@@ -64,14 +65,13 @@
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
 			<Item Name="Resource Manager.lvclass" Type="LVClass" URL="../Application Specific/Resource Manager/Resource Manager.lvclass"/>
 			<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
-			<Item Name="System Config.lvclass" Type="LVClass" URL="../Application Specific/System Config/System Config.lvclass"/>
 			<Item Name="Texture.lvclass" Type="LVClass" URL="../Application Specific/Texture/Texture.lvclass"/>
 		</Item>
 		<Item Name="Core Actors" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Alarm Handler" Type="Folder">
-				<Item Name="Alarm Handler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Alarm Handler/API/Alarm Handler Actor API.lvclass"/>
-				<Item Name="Alarm Handler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Alarm Handler/Actor/Alarm Handler Actor.lvclass"/>
+			<Item Name="Error Handler" Type="Folder">
+				<Item Name="Error Handler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/API/Error Handler Actor API.lvclass"/>
+				<Item Name="Error Handler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Error Handler/Actor/Error Handler Actor.lvclass"/>
 			</Item>
 			<Item Name="Launcher" Type="Folder">
 				<Item Name="Launcher Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Launcher/API/Launcher Actor API.lvclass"/>
@@ -84,9 +84,6 @@
 				<Item Name="Task Scheduler Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/API/Task Scheduler Actor API.lvclass"/>
 				<Item Name="Task Scheduler Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Task Scheduler/Actor/Task Scheduler Actor.lvclass"/>
 			</Item>
-			<Item Name="Test" Type="Folder">
-				<Item Name="Task Scheduler Test.vi" Type="VI" URL="../Application Specific/Actor Test/Task Scheduler Test.vi"/>
-			</Item>
 		</Item>
 		<Item Name="External" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -97,9 +94,6 @@
 			<Item Name="LibSDL2_TTF.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/LibSDL2_TTF Wrapper/LibSDL2_TTF.lvlib"/>
 			<Item Name="SDL2 Utility.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/SDL2 Utility/SDL2 Utility.lvlib"/>
 			<Item Name="Win32 Util.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/Win32 Util/Win32 Util.lvlib"/>
-		</Item>
-		<Item Name="GUI Design" Type="Folder">
-			<Item Name="GUI Design.vi" Type="VI" URL="../GUI Design/GUI Design.vi"/>
 		</Item>
 		<Item Name="Reuse Framework" Type="Folder">
 			<Item Name="Math" Type="Folder">
@@ -256,7 +250,7 @@
 				<Property Name="Source[13].properties[9].value" Type="Str">Centered</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Core Actors/Alarm Handler/Alarm Handler Actor.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Core Actors/Error Handler/Error Handler Actor.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Show menu bar</Property>
@@ -333,7 +327,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Reuse Framework/Notify Icon.lvclass/Icons</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Core Actors/Alarm Handler/Alarm Handler Actor.lvclass/API/Launch.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Core Actors/Error Handler/Error Handler Actor.lvclass/API/Launch.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
