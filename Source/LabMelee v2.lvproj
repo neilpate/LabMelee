@@ -53,10 +53,6 @@
 					<Item Name="About Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/About/About Window.lvclass"/>
 				</Item>
 			</Item>
-			<Item Name="Controls" Type="Folder">
-				<Item Name="Player.ctl" Type="VI" URL="../Application Specific/Controls/Player.ctl"/>
-				<Item Name="Ship.ctl" Type="VI" URL="../Application Specific/Controls/Ship.ctl"/>
-			</Item>
 			<Item Name="Elements" Type="Folder">
 				<Item Name="Ships" Type="Folder">
 					<Item Name="Arilou.lvclass" Type="LVClass" URL="../Application Specific/Ships/Arilou/Arilou.lvclass"/>
@@ -86,6 +82,7 @@
 			</Item>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
 			<Item Name="Control State.lvclass" Type="LVClass" URL="../Application Specific/Control State/Control State.lvclass"/>
+			<Item Name="Globals.vi" Type="VI" URL="../Application Specific/Globals.vi"/>
 			<Item Name="Main INI.lvlib" Type="Library" URL="../Application Specific/Main INI/Main INI.lvlib"/>
 			<Item Name="Math.lvlib" Type="Library" URL="../Application Specific/Math/Math.lvlib"/>
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
@@ -101,9 +98,8 @@
 			<Item Name="LibSDL2_Mixer.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/LibSDL2_Mixer Wrapper/LibSDL2_Mixer.lvlib"/>
 			<Item Name="LibSDL2_TTF.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/LibSDL2_TTF Wrapper/LibSDL2_TTF.lvlib"/>
 			<Item Name="SDL2 Utility.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/SDL2 Utility/SDL2 Utility.lvlib"/>
-			<Item Name="Win32 Util.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/Win32 Util/Win32 Util.lvlib"/>
 		</Item>
-		<Item Name="Reuse Framework" Type="Folder">
+		<Item Name="Reuse Libraries" Type="Folder">
 			<Item Name="Math" Type="Folder">
 				<Item Name="Vector 2D.lvclass" Type="LVClass" URL="../Application Specific/Vector 2D/Vector 2D.lvclass"/>
 			</Item>
@@ -137,22 +133,16 @@
 				<Item Name="Build Tools.lvlib" Type="Library" URL="../Re-use Libraries/Build Tools/Build Tools.lvlib"/>
 				<Item Name="Pre-Build Action.vi" Type="VI" URL="../Re-use Libraries/Build Tools/Pre-Build Action.vi"/>
 			</Item>
-			<Item Name="Win API" Type="Folder">
-				<Item Name="WINUTIL.LLB" Type="Folder">
-					<Item Name="Get Window RefNum.vi" Type="VI" URL="../Re-use Libraries/labview_win_util32_/WINUTIL.LLB/Get Window RefNum.vi"/>
-					<Item Name="Make Window Always on Top.vi" Type="VI" URL="../Re-use Libraries/labview_win_util32_/WINUTIL.LLB/Make Window Always on Top.vi"/>
-					<Item Name="Not a Window Refnum" Type="VI" URL="../Re-use Libraries/labview_win_util32_/WINUTIL.LLB/Not a Window Refnum"/>
-					<Item Name="Set Window Z-Position.vi" Type="VI" URL="../Re-use Libraries/labview_win_util32_/WINUTIL.LLB/Set Window Z-Position.vi"/>
-					<Item Name="Window Refnum" Type="VI" URL="../Re-use Libraries/labview_win_util32_/WINUTIL.LLB/Window Refnum"/>
-				</Item>
-			</Item>
 			<Item Name="App Info.lvlib" Type="Library" URL="../Re-use Libraries/Application Info/App Info.lvlib"/>
 			<Item Name="ByRef Variant Repository.lvlib" Type="Library" URL="../Re-use Libraries/DVR Variant Repository/ByRef Variant Repository.lvlib"/>
 			<Item Name="Elapsed Time.lvclass" Type="LVClass" URL="../Re-use Libraries/Elapsed Time/Elapsed Time.lvclass"/>
 			<Item Name="Timer.lvclass" Type="LVClass" URL="../Re-use Libraries/Timer/Timer.lvclass"/>
 			<Item Name="Utility.lvlib" Type="Library" URL="../Re-use Libraries/Utility/Utility.lvlib"/>
 		</Item>
-		<Item Name="Globals.vi" Type="VI" URL="../Application Specific/Globals.vi"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
+			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
+		</Item>
 		<Item Name="Helper.vi" Type="VI" URL="../Helper.vi"/>
 		<Item Name="Main Controller Actor API.lvclass" Type="LVClass" URL="../Application Specific/Actors/Main Controller/API/Main Controller Actor API.lvclass"/>
 		<Item Name="Main Controller Actor.lvclass" Type="LVClass" URL="../Application Specific/Actors/Main Controller/Actor/Main Controller Actor.lvclass"/>
@@ -172,7 +162,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/LabMelee</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Reuse Framework/Project Utilities/Build Tools.lvlib/Post-Build Action - Rename AppName Section.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Reuse Libraries/Project Utilities/Build Tools.lvlib/Post-Build Action - Rename AppName Section.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D9548488-97F4-4064-B5AA-AF4BD6AFDAE9}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
@@ -203,7 +193,7 @@
 				<Property Name="Source[11].properties[0].value" Type="Str">Floating</Property>
 				<Property Name="Source[11].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Reuse Framework/Utility.lvlib/GUI/Modal Dialogues/Dialogue - Two Button.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - Two Button.vi</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Show menu bar</Property>
@@ -226,7 +216,7 @@
 				<Property Name="Source[12].properties[9].value" Type="Str">Centered</Property>
 				<Property Name="Source[12].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Reuse Framework/Utility.lvlib/GUI/Modal Dialogues/Dialogue - One Button.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - One Button.vi</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[13].properties[1].type" Type="Str">Show menu bar</Property>
@@ -296,7 +286,7 @@
 				<Property Name="Source[3].properties[9].value" Type="Str">Unchanged</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Reuse Framework/Minimal Actor Framework/Actors/Debugger/Debugger.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Reuse Libraries/Minimal Actor Framework/Actors/Debugger/Debugger.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Show menu bar</Property>
