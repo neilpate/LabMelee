@@ -49,9 +49,7 @@
 					<Item Name="Main View.lvclass" Type="LVClass" URL="../Application Specific/Views/Main/Main View.lvclass"/>
 					<Item Name="Process Input View.lvclass" Type="LVClass" URL="../Application Specific/Views/Process Input/Process Input View.lvclass"/>
 				</Item>
-				<Item Name="Windows" Type="Folder">
-					<Item Name="About Window.lvclass" Type="LVClass" URL="../Application Specific/Windows/About/About Window.lvclass"/>
-				</Item>
+				<Item Name="Windows" Type="Folder"/>
 			</Item>
 			<Item Name="Elements" Type="Folder">
 				<Item Name="Ships" Type="Folder">
@@ -337,7 +335,7 @@
 				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Application Specific/Actors/Windows/About Window.lvclass/Framework/Process.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Window behavior</Property>
 				<Property Name="Source[9].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Window has title bar</Property>
