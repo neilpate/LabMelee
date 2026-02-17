@@ -86,6 +86,7 @@
 			<Item Name="Main INI.lvlib" Type="Library" URL="../Application Specific/Main INI/Main INI.lvlib"/>
 			<Item Name="Math.lvlib" Type="Library" URL="../Application Specific/Math/Math.lvlib"/>
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
+			<Item Name="Renderer.lvclass" Type="LVClass" URL="../Application Specific/Renderer/Renderer.lvclass"/>
 			<Item Name="Resource Manager.lvclass" Type="LVClass" URL="../Application Specific/Resource Manager/Resource Manager.lvclass"/>
 			<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 			<Item Name="Texture.lvclass" Type="LVClass" URL="../Application Specific/Texture/Texture.lvclass"/>
@@ -141,6 +142,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
+			<Item Name="Renderer Tests.lvclass" Type="LVClass" URL="../Tests/Renderer/Renderer Tests.lvclass"/>
 			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
 		</Item>
 		<Item Name="Helper.vi" Type="VI" URL="../Helper.vi"/>

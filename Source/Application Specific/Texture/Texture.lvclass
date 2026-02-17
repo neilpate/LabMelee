@@ -50,7 +50,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 		</Item>
 		<Item Name="Initialise From Font.vi" Type="VI" URL="../Initialise From Font.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$0!!!!"Q!%!!!!*E"Q!"Y!!"%06'6Y&gt;(6S:3ZM&gt;G.M98.T!!N5:8BU&gt;8*F)'^V&gt;!!&lt;1!-!&amp;&amp;&gt;S98!A4'6O:X2I)&amp;NQ;8BF&lt;(.&gt;!!!.1!=!"E.P&lt;'^V=A!!$E!Q`````Q25:8BU!!!41!=!$%:P&lt;H1A5'^J&lt;H2F=A!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!)!!Q!%!!5$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!%!!!!"!!!!!!!1!'!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$?!!!!#!!%!!!!*E"Q!"Y!!"%06'6Y&gt;(6S:3ZM&gt;G.M98.T!!N5:8BU&gt;8*F)'^V&gt;!!01!=!#&amp;*F&lt;G2F=G6S!!!&lt;1!-!&amp;&amp;&gt;S98!A4'6O:X2I)&amp;NQ;8BF&lt;(.&gt;!!!.1!=!"E.P&lt;'^V=A!!$E!Q`````Q25:8BU!!!41!=!$%:P&lt;H1A5'^J&lt;H2F=A!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!#!!-!"!!&amp;!!9$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!%!!!!!A!!!!1!!!!%!!!!"!!!!!!!1!(!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -68,22 +68,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342971904</Property>
 		</Item>
 		<Item Name="Load.vi" Type="VI" URL="../Load.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#@!!!!"1!%!!!!*E"Q!"Y!!"%06'6Y&gt;(6S:3ZM&gt;G.M98.T!!N5:8BU&gt;8*F)'^V&gt;!!,1!E!"6.D97RF!!Z!-P````]%5'&amp;U;!!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!!!!1!%!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%,!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V2F?(2V=G5O&lt;(:D&lt;'&amp;T=Q!,6'6Y&gt;(6S:3"P&gt;81!$U!(!!B3:7ZE:8*F=A!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!E!"6.D97RF!!Z!-P````]%5'&amp;U;!!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!%!!!!!I!!!!!!!!!#!!!!"!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
-		</Item>
-		<Item Name="Render.vi" Type="VI" URL="../Render.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$:!!!!"A!%!!!!"U!$!!&amp;Y!!&gt;!!Q!"?1"&amp;!0(1H+TN!!!!!B*42%QS)&amp;6U;7RJ&gt;(EO&lt;(:M;7)05'^J&lt;H1A+%ET-CEO9X2M!"J!5!!#!!%!!AN%:8.U;7ZB&gt;'FP&lt;A!G1(!!(A!!%1^5:8BU&gt;8*F,GRW9WRB=X-!#F2F?(2V=G5A;7Y!!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Q!%!Q!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!#1!!!!!!%!"1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
 	</Item>
 </LVClass>
