@@ -14,10 +14,10 @@
 		<Item Name="Wrap Point (Zero To Max).vi" Type="VI" URL="../Wrap Point (Zero To Max).vi"/>
 		<Item Name="Wrap Value.vi" Type="VI" URL="../Wrap Value.vi"/>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="Point (SGL).ctl" Type="VI" URL="../Point (SGL).ctl"/>
-	</Item>
 	<Item Name="Sub VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Vec2.ctl" Type="VI" URL="../Vec2.ctl"/>
 	</Item>
 </Library>

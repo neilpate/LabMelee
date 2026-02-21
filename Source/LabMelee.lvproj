@@ -139,6 +139,7 @@
 			<Item Name="Utility.lvlib" Type="Library" URL="../Re-use Libraries/Utility/Utility.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Camera Tests.lvclass" Type="LVClass" URL="../Tests/Camera/Camera Tests.lvclass"/>
 			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
 			<Item Name="Renderer Tests.lvclass" Type="LVClass" URL="../Tests/Renderer/Renderer Tests.lvclass"/>
 			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
@@ -335,7 +336,7 @@
 				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Window behavior</Property>
 				<Property Name="Source[9].properties[0].value" Type="Str">Modal</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Window has title bar</Property>
