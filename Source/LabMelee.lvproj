@@ -49,7 +49,6 @@
 					<Item Name="Main View.lvclass" Type="LVClass" URL="../Application Specific/Views/Main/Main View.lvclass"/>
 					<Item Name="Process Input View.lvclass" Type="LVClass" URL="../Application Specific/Views/Process Input/Process Input View.lvclass"/>
 				</Item>
-				<Item Name="Windows" Type="Folder"/>
 			</Item>
 			<Item Name="Elements" Type="Folder">
 				<Item Name="Ships" Type="Folder">

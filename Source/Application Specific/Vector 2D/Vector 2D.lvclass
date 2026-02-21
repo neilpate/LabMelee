@@ -49,6 +49,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">794624</Property>
 		</Item>
+		<Item Name="Divide By Scalar.vi" Type="VI" URL="../Divide By Scalar.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#S!!!!"1!%!!!!)%"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!!E&amp;Y!!!(1!E!!8A!(E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!!5%!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">794624</Property>
+		</Item>
 		<Item Name="get x And y As Point (I32).vi" Type="VI" URL="../get x And y As Point (I32).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$8!!!!"A!%!!!!"U!$!!&amp;Y!!&gt;!!Q!"?1!`!0(1H+TN!!!!!B*42%QS)&amp;6U;7RJ&gt;(EO&lt;(:M;7)05'^J&lt;H1A+%ET-CEO9X2M!"2!5!!#!!%!!A61&lt;WFO&gt;!!K1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!-6G6D&gt;'^S)$*%)'FO!!"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!!!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -169,14 +178,5 @@
 	</Item>
 	<Item Name="Sub VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Divide By Scalar.vi" Type="VI" URL="../Divide By Scalar.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#S!!!!"1!%!!!!)%"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!!E&amp;Y!!!(1!E!!8A!(E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!!5%!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!#!!-#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!"!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">794624</Property>
 	</Item>
 </LVClass>

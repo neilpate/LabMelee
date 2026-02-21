@@ -22,6 +22,15 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Item Name="get Zoom.vi" Type="VI" URL="../get Zoom.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#6!!!!"!!%!!!!%5!*!!J;&lt;W^N)%RF&gt;G6M!!!E1(!!(A!!%!Z$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!#5.B&lt;76S93"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!-!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
+		</Item>
 		<Item Name="Initialise.vi" Type="VI" URL="../Initialise.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Y!!!!"A!%!!!!*E"Q!"Y!!"!/1W&amp;N:8*B,GRW9WRB=X-!!!J$97VF=G%A&lt;X6U!!!E1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!'4X*J:WFO!!!G1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!*6GFF&gt;S"4;8JF!#B!=!!?!!!4%6:F9X2P=C!S2#ZM&gt;G.M98.T!!J8&lt;X*M:#"4;8JF!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!#!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!3!!!!%A!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -29,7 +38,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 		</Item>
 		<Item Name="Update.vi" Type="VI" URL="../Update.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%4!!!!"A!%!!!!*E"Q!"Y!!"!/1W&amp;N:8*B,GRW9WRB=X-!!!J$97VF=G%A&lt;X6U!!!O1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!25'RB?76S)$)A5'^T;82J&lt;WY!,E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!%6"M98FF=C!R)&amp;"P=WFU;7^O!#2!=!!?!!!1$E.B&lt;76S93ZM&gt;G.M98.T!!!*1W&amp;N:8*B)'FO!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!%!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!!")!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!5!!!!!</Property>
@@ -59,15 +68,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342971904</Property>
-		</Item>
-		<Item Name="get Zoom.vi" Type="VI" URL="../get Zoom.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#6!!!!"!!%!!!!%5!*!!J;&lt;W^N)%RF&gt;G6M!!!E1(!!(A!!%!Z$97VF=G%O&lt;(:D&lt;'&amp;T=Q!!#5.B&lt;76S93"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!-!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 		</Item>
 	</Item>
 	<Item Name="Sub VIs" Type="Folder">
