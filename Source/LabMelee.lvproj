@@ -98,9 +98,6 @@
 			<Item Name="SDL2 Utility.lvlib" Type="Library" URL="../../../LabSDL2/Source/Libraries/SDL2 Utility/SDL2 Utility.lvlib"/>
 		</Item>
 		<Item Name="Reuse Libraries" Type="Folder">
-			<Item Name="Math" Type="Folder">
-				<Item Name="Vector 2D.lvclass" Type="LVClass" URL="../Application Specific/Vector 2D/Vector 2D.lvclass"/>
-			</Item>
 			<Item Name="Minimal Actor Framework" Type="Folder">
 				<Item Name="Actors" Type="Folder">
 					<Item Name="Base Actor" Type="Folder">
@@ -136,6 +133,7 @@
 			<Item Name="Elapsed Time.lvclass" Type="LVClass" URL="../Re-use Libraries/Elapsed Time/Elapsed Time.lvclass"/>
 			<Item Name="Timer.lvclass" Type="LVClass" URL="../Re-use Libraries/Timer/Timer.lvclass"/>
 			<Item Name="Utility.lvlib" Type="Library" URL="../Re-use Libraries/Utility/Utility.lvlib"/>
+			<Item Name="Vector 2D.lvclass" Type="LVClass" URL="../Application Specific/Vector 2D/Vector 2D.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Camera Tests.lvclass" Type="LVClass" URL="../Tests/Camera/Camera Tests.lvclass"/>
