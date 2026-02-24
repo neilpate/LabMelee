@@ -58,15 +58,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">794624</Property>
 		</Item>
-		<Item Name="get x And y As Point (I32).vi" Type="VI" URL="../get x And y As Point (I32).vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$8!!!!"A!%!!!!"U!$!!&amp;Y!!&gt;!!Q!"?1!`!0(1H+TN!!!!!B*42%QS)&amp;6U;7RJ&gt;(EO&lt;(:M;7)05'^J&lt;H1A+%ET-CEO9X2M!"2!5!!#!!%!!A61&lt;WFO&gt;!!K1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!-6G6D&gt;'^S)$*%)'FO!!"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!!!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!5!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
-		</Item>
 		<Item Name="get x and y.vi" Type="VI" URL="../get x and y.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#9!!!!"1!%!!!!"U!*!!&amp;Z!!&gt;!#1!"?!!K1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!-6G6D&gt;'^S)$*%)'FO!!"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

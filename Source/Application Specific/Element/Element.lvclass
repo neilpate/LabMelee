@@ -67,15 +67,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342971904</Property>
 		</Item>
-		<Item Name="get Position (As Cluster).vi" Type="VI" URL="../get Position (As Cluster).vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$8!!!!"A!%!!!!"U!$!!&amp;Y!!&gt;!!Q!"?1"$!0(1H+TN!!!!!B*42%QS)&amp;6U;7RJ&gt;(EO&lt;(:M;7)05'^J&lt;H1A+%ET-CEO9X2M!"B!5!!#!!%!!AB1&lt;X.J&gt;'FP&lt;A!!*E"Q!"Y!!"%027RF&lt;76O&gt;#ZM&gt;G.M98.T!!J&amp;&lt;'6N:7ZU)'FO!!"5!0!!$!!!!!!!!!!$!!!!!!!!!!!!!!!!!!!!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!5!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
-		</Item>
 		<Item Name="get Position.vi" Type="VI" URL="../get Position.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#M!!!!"!!%!!!!*E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!#&amp;"P=WFU;7^O!!!G1(!!(A!!%1^&amp;&lt;'6N:7ZU,GRW9WRB=X-!#E6M:7VF&lt;H1A;7Y!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!#!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!%!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
