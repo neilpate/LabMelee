@@ -61,6 +61,7 @@
 				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
 				<Item Name="Galaxy.lvclass" Type="LVClass" URL="../Application Specific/Galaxy/Galaxy.lvclass"/>
 				<Item Name="Planet.lvclass" Type="LVClass" URL="../Application Specific/Planet/Planet.lvclass"/>
+				<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 				<Item Name="Thrust Dot.lvclass" Type="LVClass" URL="../Application Specific/Thrust Dot/Thrust Dot.lvclass"/>
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
@@ -85,7 +86,6 @@
 			<Item Name="Motion.lvclass" Type="LVClass" URL="../Application Specific/Motion/Motion.lvclass"/>
 			<Item Name="Renderer.lvclass" Type="LVClass" URL="../Application Specific/Renderer/Renderer.lvclass"/>
 			<Item Name="Resource Manager.lvclass" Type="LVClass" URL="../Application Specific/Resource Manager/Resource Manager.lvclass"/>
-			<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 			<Item Name="Texture.lvclass" Type="LVClass" URL="../Application Specific/Texture/Texture.lvclass"/>
 		</Item>
 		<Item Name="External" Type="Folder">
