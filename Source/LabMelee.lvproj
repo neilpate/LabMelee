@@ -61,7 +61,6 @@
 				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
 				<Item Name="Galaxy.lvclass" Type="LVClass" URL="../Application Specific/Galaxy/Galaxy.lvclass"/>
 				<Item Name="Planet.lvclass" Type="LVClass" URL="../Application Specific/Planet/Planet.lvclass"/>
-				<Item Name="Star.lvclass" Type="LVClass" URL="../Application Specific/Star/Star.lvclass"/>
 				<Item Name="Thrust Dot.lvclass" Type="LVClass" URL="../Application Specific/Thrust Dot/Thrust Dot.lvclass"/>
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
