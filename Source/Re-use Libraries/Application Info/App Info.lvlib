@@ -45,15 +45,15 @@ n/a</Property>
 		<Item Name="set Name.vi" Type="VI" URL="../set Name.vi"/>
 		<Item Name="set Version.vi" Type="VI" URL="../set Version.vi"/>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="Action.ctl" Type="VI" URL="../Action.ctl"/>
-		<Item Name="Core Data.ctl" Type="VI" URL="../Core Data.ctl"/>
-	</Item>
 	<Item Name="Sub VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Action.ctl" Type="VI" URL="../Action.ctl"/>
+		<Item Name="Core Data.ctl" Type="VI" URL="../Core Data.ctl"/>
 	</Item>
 </Library>

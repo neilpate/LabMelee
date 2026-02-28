@@ -44,10 +44,6 @@ Used to store and manage all details related to the .ini file. Note this is diff
 		<Item Name="Save.vi" Type="VI" URL="../Save.vi"/>
 		<Item Name="set System Configuration.vi" Type="VI" URL="../set System Configuration.vi"/>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="Action.ctl" Type="VI" URL="../Action.ctl"/>
-		<Item Name="Core Data.ctl" Type="VI" URL="../Core Data.ctl"/>
-	</Item>
 	<Item Name="Sub VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -56,5 +52,9 @@ Used to store and manage all details related to the .ini file. Note this is diff
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Action.ctl" Type="VI" URL="../Action.ctl"/>
+		<Item Name="Core Data.ctl" Type="VI" URL="../Core Data.ctl"/>
 	</Item>
 </Library>

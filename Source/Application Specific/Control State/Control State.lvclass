@@ -84,17 +84,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">269230080</Property>
 		</Item>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="Button State.ctl" Type="VI" URL="../Button State.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"[!!!!!1"S!0(8:N')!!!!!B6$&lt;WZU=G^M)&amp;.U982F,GRW9WRB=X-11H6U&gt;'^O)&amp;.U982F,G.U&lt;!"$1"9!"1F6&lt;G2F:GFO:71(5(*F=X.F:!B3:7RF98.F:!2):7RE#%ZP&gt;#"):7RE!!!-1H6U&gt;'^O)&amp;.U982F!!!"!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
-		</Item>
-	</Item>
 	<Item Name="Sub VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Calculate Button State.vi" Type="VI" URL="../Calculate Button State.vi">
@@ -105,6 +94,17 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">276832256</Property>
+		</Item>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Button State.ctl" Type="VI" URL="../Button State.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"[!!!!!1"S!0(8:N')!!!!!B6$&lt;WZU=G^M)&amp;.U982F,GRW9WRB=X-11H6U&gt;'^O)&amp;.U982F,G.U&lt;!"$1"9!"1F6&lt;G2F:GFO:71(5(*F=X.F:!B3:7RF98.F:!2):7RE#%ZP&gt;#"):7RE!!!-1H6U&gt;'^O)&amp;.U982F!!!"!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">4194304</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
 	</Item>
 </LVClass>

@@ -57,7 +57,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 		</Item>
 		<Item Name="Initialise String Texture.vi" Type="VI" URL="../Initialise String Texture.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%?!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].4G&amp;N:3"*&lt;C"$97.I:1!&lt;1!-!&amp;&amp;&gt;S98!A4'6O:X2I)&amp;NQ;8BF&lt;(.&gt;!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%4G&amp;N:1!!$E!Q`````Q25:8BU!!!51$$`````#E:P&lt;H1A1W^N9G]!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!$1E!!!!!!!!!!!!!#!!!!!!!!!!+!!!!%!!!!"!!!!!1!!!!!!%!#Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].4G&amp;N:3"*&lt;C"$97.I:1!&lt;1!-!&amp;&amp;&gt;S98!A4'6O:X2I)&amp;NQ;8BF&lt;(.&gt;!!!01!=!#&amp;*F&lt;G2F=G6S!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%4G&amp;N:1!!$E!Q`````Q25:8BU!!!51$$`````#E:P&lt;H1A1W^N9G]!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"Q!)!!E!#A!,!Q!!?!!!$1A!!!!!!!!!!!!!$1E!!!!!!!!!!!!!#!!!!"!!!!!+!!!!%!!!!"!!!!!1!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -66,7 +66,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Initialise Texture From File.vi" Type="VI" URL="../Initialise Texture From File.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].4G&amp;N:3"*&lt;C"$97.I:1!,1!E!"6.D97RF!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!Q`````Q2/97VF!!!/1$,`````"%:J&lt;'5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1I!!!!!!!!!!!!!#!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%*!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].4G&amp;N:3"*&lt;C"$97.I:1!,1!E!"6.D97RF!!^!"Q!)5G6O:'6S:8)!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$E!Q`````Q2/97VF!!!/1$,`````"%:J&lt;'5!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"Q!)!!1!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!$1I!!!!!!!!!!!!!#!!!!"!!!!!+!!!!!!!!!"!!!!!1!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -105,5 +105,4 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 	</Item>
-	<Item Name="Test" Type="Folder"/>
 </LVClass>

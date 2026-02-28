@@ -91,7 +91,7 @@
 		<Item Name="Tree Control - Symbols.vi" Type="VI" URL="../Tree Control - Symbols.vi"/>
 		<Item Name="Turn Off Subpanel Scrollbars When Running.vi" Type="VI" URL="../UI/Turn Off Subpanel Scrollbars When Running.vi"/>
 	</Item>
-	<Item Name="Controls" Type="Folder">
+	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Range.ctl" Type="VI" URL="../Typedef/Range.ctl"/>
 		<Item Name="Boolean Indicator State.ctl" Type="VI" URL="../Typedef/Boolean Indicator State.ctl"/>
 	</Item>

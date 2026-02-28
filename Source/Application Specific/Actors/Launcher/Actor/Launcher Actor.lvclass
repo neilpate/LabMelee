@@ -22,26 +22,6 @@
 	<Item Name="Launcher Actor.ctl" Type="Class Private Data" URL="Launcher Actor.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="Glyph.ctl" Type="VI" URL="../Glyph.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"!!!!!!1!Y!0()9)"^!!!!!B:-986O9WBF=C""9X2P=CZM&gt;G.M98.T#5&gt;M?8"I,G.U&lt;!!01!9!"5&gt;M?8"I!!%!!!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
-		<Item Name="Launcher Message.ctl" Type="VI" URL="../Launcher Message.ctl">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#E!!!!!Q!11$$`````"UVF=X.B:W5!/!$RS'#!@1!!!!)74'&amp;V&lt;G.I:8)A17.U&lt;X)O&lt;(:D&lt;'&amp;T=QF(&lt;(FQ;#ZD&gt;'Q!$U!'!!6(&lt;(FQ;!"5!0(4&gt;-W$!!!!!B:-986O9WBF=C""9X2P=CZM&gt;G.M98.T&amp;%RB&gt;7ZD;'6S)%VF=X.B:W5O9X2M!#"!5!!#!!!!!2"-986O9WBF=C".:8.T97&gt;F!!!"!!)!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
-		</Item>
-	</Item>
 	<Item Name="Framework" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -62,6 +42,26 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		</Item>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Glyph.ctl" Type="VI" URL="../Glyph.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"!!!!!!1!Y!0()9)"^!!!!!B:-986O9WBF=C""9X2P=CZM&gt;G.M98.T#5&gt;M?8"I,G.U&lt;!!01!9!"5&gt;M?8"I!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
+		<Item Name="Launcher Message.ctl" Type="VI" URL="../Launcher Message.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#E!!!!!Q!11$$`````"UVF=X.B:W5!/!$RS'#!@1!!!!)74'&amp;V&lt;G.I:8)A17.U&lt;X)O&lt;(:D&lt;'&amp;T=QF(&lt;(FQ;#ZD&gt;'Q!$U!'!!6(&lt;(FQ;!"5!0(4&gt;-W$!!!!!B:-986O9WBF=C""9X2P=CZM&gt;G.M98.T&amp;%RB&gt;7ZD;'6S)%VF=X.B:W5O9X2M!#"!5!!#!!!!!2"-986O9WBF=C".:8.T97&gt;F!!!"!!)!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
 	</Item>
 	<Item Name="Helper.vi" Type="VI" URL="../Helper.vi">

@@ -34,9 +34,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-	</Item>
 	<Item Name="Framework" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -58,5 +55,8 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342186000</Property>
 		</Item>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 	</Item>
 </LVClass>
