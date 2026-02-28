@@ -94,6 +94,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">532486</Property>
 		</Item>
+		<Item Name="Normalise.vi" Type="VI" URL="../Normalise.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$"!!!!"!!%!!!!+E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!$6:F9X2P=C!S2#"P&gt;81!+E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!$&amp;:F9X2P=C!S2#"J&lt;A!!91$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
 		<Item Name="set x and y.vi" Type="VI" URL="../set x and y.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$0!!!!"A!%!!!!+E"Q!"Y!!"-26G6D&gt;'^S)$*%,GRW9WRB=X-!$6:F9X2P=C!S2#"P&gt;81!"U!*!!&amp;Z!!&gt;!#1!"?!!K1(!!(A!!%R&amp;7:7.U&lt;X)A-E1O&lt;(:D&lt;'&amp;T=Q!-6G6D&gt;'^S)$*%)'FO!!"B!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!#!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!&amp;!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
