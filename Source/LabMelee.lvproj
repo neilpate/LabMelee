@@ -56,6 +56,7 @@
 					<Item Name="Chmmr.lvclass" Type="LVClass" URL="../Application Specific/Ships/Chmmr/Chmmr.lvclass"/>
 					<Item Name="Kohrah.lvclass" Type="LVClass" URL="../Application Specific/Ships/Kohrah/Kohrah.lvclass"/>
 					<Item Name="Ship.lvclass" Type="LVClass" URL="../Application Specific/Ship/Ship.lvclass"/>
+					<Item Name="Slylandro.lvclass" Type="LVClass" URL="../Application Specific/Ships/Slylandro/Slylandro.lvclass"/>
 				</Item>
 				<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
 				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
