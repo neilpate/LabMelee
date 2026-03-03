@@ -66,6 +66,7 @@
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="Battle Area Rectangle.vi" Type="VI" URL="../Application Specific/Control State/Battle Area Rectangle.vi"/>
 				<Item Name="Calculate Delta.vi" Type="VI" URL="../Application Specific/Utility VIs/Calculate Delta.vi"/>
 				<Item Name="Constants.ctl" Type="VI" URL="../Application Specific/Utility VIs/Constants.ctl"/>
 				<Item Name="Constants.vi" Type="VI" URL="../Application Specific/Utility VIs/Constants.vi"/>
