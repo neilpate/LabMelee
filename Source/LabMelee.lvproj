@@ -58,6 +58,9 @@
 					<Item Name="Ship.lvclass" Type="LVClass" URL="../Application Specific/Ship/Ship.lvclass"/>
 					<Item Name="Slylandro.lvclass" Type="LVClass" URL="../Application Specific/Ships/Slylandro/Slylandro.lvclass"/>
 				</Item>
+				<Item Name="Weapons" Type="Folder">
+					<Item Name="Weapon.lvclass" Type="LVClass" URL="../Application Specific/Weapon/Weapon.lvclass"/>
+				</Item>
 				<Item Name="Asteroid.lvclass" Type="LVClass" URL="../Application Specific/Asteroid/Asteroid.lvclass"/>
 				<Item Name="Element.lvclass" Type="LVClass" URL="../Application Specific/Element/Element.lvclass"/>
 				<Item Name="Galaxy.lvclass" Type="LVClass" URL="../Application Specific/Galaxy/Galaxy.lvclass"/>
