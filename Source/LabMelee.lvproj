@@ -80,6 +80,7 @@
 				<Item Name="get Resource Directory.vi" Type="VI" URL="../Application Specific/Utility VIs/get Resource Directory.vi"/>
 				<Item Name="Load ANI Textures.vi" Type="VI" URL="../Application Specific/Utility VIs/Load ANI Textures.vi"/>
 				<Item Name="Target Frame Period.vi" Type="VI" URL="../Application Specific/Utility VIs/Target Frame Period.vi"/>
+				<Item Name="Vector 2D To SDL Point.vi" Type="VI" URL="../Application Specific/Utility VIs/Vector 2D To SDL Point.vi"/>
 				<Item Name="Viewport Sizes.vi" Type="VI" URL="../Application Specific/Utility VIs/Viewport Sizes.vi"/>
 				<Item Name="Wrap To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap To World.vi"/>
 			</Item>
