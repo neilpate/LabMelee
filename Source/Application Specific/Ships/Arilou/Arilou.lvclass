@@ -32,8 +32,26 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342186000</Property>
 		</Item>
+		<Item Name="Post-Process.vi" Type="VI" URL="../Post-Process.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$O!!!!"A!%!!!!+E"Q!"Y!!"%027RF&lt;76O&gt;#ZM&gt;G.M98.T!!^&amp;&lt;'6N:7ZU,GRW9WRB=X-!'E"!!!(`````!!%-4G6X)%6M:7VF&lt;H2T!!!G1(!!(A!!%!Z"=GFM&lt;X5O&lt;(:D&lt;'&amp;T=Q!!#E&amp;S;7RP&gt;3"P&gt;81!!#2!=!!?!!!1$E&amp;S;7RP&gt;3ZM&gt;G.M98.T!!!*18*J&lt;'^V)'FO!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!Q!!?!!!!!!!!!!!!!!*!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!"1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
+		</Item>
 		<Item Name="Pre-Process.vi" Type="VI" URL="../Pre-Process.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#K!!!!"!!%!!!!*E"Q!"Y!!"!/18*J&lt;'^V,GRW9WRB=X-!!!J"=GFM&lt;X5A&lt;X6U!!!E1(!!(A!!%!Z"=GFM&lt;X5O&lt;(:D&lt;'&amp;T=Q!!#5&amp;S;7RP&gt;3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!)E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!-!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
+		<Item Name="Spawn Primary Weapon.vi" Type="VI" URL="../Spawn Primary Weapon.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$O!!!!"A!%!!!!+E"Q!"Y!!"%027RF&lt;76O&gt;#ZM&gt;G.M98.T!!^&amp;&lt;'6N:7ZU,GRW9WRB=X-!'E"!!!(`````!!%-4G6X)%6M:7VF&lt;H2T!!!G1(!!(A!!%!Z"=GFM&lt;X5O&lt;(:D&lt;'&amp;T=Q!!#E&amp;S;7RP&gt;3"P&gt;81!!#2!=!!?!!!1$E&amp;S;7RP&gt;3ZM&gt;G.M98.T!!!*18*J&lt;'^V)'FO!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!A!!?!!!!!!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
