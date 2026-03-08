@@ -51,6 +51,10 @@
 				</Item>
 			</Item>
 			<Item Name="Elements" Type="Folder">
+				<Item Name="Deployables" Type="Folder">
+					<Item Name="Deployable.lvclass" Type="LVClass" URL="../Application Specific/Deployable/Deployable.lvclass"/>
+					<Item Name="Zap Sat.lvclass" Type="LVClass" URL="../Application Specific/Deployables/Zap Sat/Zap Sat.lvclass"/>
+				</Item>
 				<Item Name="Ships" Type="Folder">
 					<Item Name="Arilou.lvclass" Type="LVClass" URL="../Application Specific/Ships/Arilou/Arilou.lvclass"/>
 					<Item Name="Chmmr.lvclass" Type="LVClass" URL="../Application Specific/Ships/Chmmr/Chmmr.lvclass"/>
