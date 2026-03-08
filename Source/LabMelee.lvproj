@@ -82,7 +82,7 @@
 				<Item Name="Target Frame Period.vi" Type="VI" URL="../Application Specific/Utility VIs/Target Frame Period.vi"/>
 				<Item Name="Vector 2D To SDL Point.vi" Type="VI" URL="../Application Specific/Utility VIs/Vector 2D To SDL Point.vi"/>
 				<Item Name="Viewport Sizes.vi" Type="VI" URL="../Application Specific/Utility VIs/Viewport Sizes.vi"/>
-				<Item Name="Wrap To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap To World.vi"/>
+				<Item Name="Wrap Position To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap Position To World.vi"/>
 			</Item>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
 			<Item Name="Control State.lvclass" Type="LVClass" URL="../Application Specific/Control State/Control State.lvclass"/>
