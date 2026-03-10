@@ -78,7 +78,6 @@
 					<Item Name="FGV Action.ctl" Type="VI" URL="../Application Specific/Utility VIs/FGV Action.ctl"/>
 				</Item>
 				<Item Name="Battle Area Rectangle.vi" Type="VI" URL="../Application Specific/Control State/Battle Area Rectangle.vi"/>
-				<Item Name="Calculate Delta.vi" Type="VI" URL="../Application Specific/Utility VIs/Calculate Delta.vi"/>
 				<Item Name="Constants.ctl" Type="VI" URL="../Application Specific/Utility VIs/Constants.ctl"/>
 				<Item Name="Constants.vi" Type="VI" URL="../Application Specific/Utility VIs/Constants.vi"/>
 				<Item Name="get Application Ini File.vi" Type="VI" URL="../Application Specific/Utility VIs/get Application Ini File.vi"/>
