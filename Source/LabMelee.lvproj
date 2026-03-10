@@ -74,6 +74,9 @@
 			</Item>
 			<Item Name="Utility VIs" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="Typedefs" Type="Folder">
+					<Item Name="FGV Action.ctl" Type="VI" URL="../Application Specific/Utility VIs/FGV Action.ctl"/>
+				</Item>
 				<Item Name="Battle Area Rectangle.vi" Type="VI" URL="../Application Specific/Control State/Battle Area Rectangle.vi"/>
 				<Item Name="Calculate Delta.vi" Type="VI" URL="../Application Specific/Utility VIs/Calculate Delta.vi"/>
 				<Item Name="Constants.ctl" Type="VI" URL="../Application Specific/Utility VIs/Constants.ctl"/>
@@ -84,6 +87,7 @@
 				<Item Name="get Resource Directory.vi" Type="VI" URL="../Application Specific/Utility VIs/get Resource Directory.vi"/>
 				<Item Name="Load ANI Textures.vi" Type="VI" URL="../Application Specific/Utility VIs/Load ANI Textures.vi"/>
 				<Item Name="Target Frame Period.vi" Type="VI" URL="../Application Specific/Utility VIs/Target Frame Period.vi"/>
+				<Item Name="Time.vi" Type="VI" URL="../Application Specific/Utility VIs/Time.vi"/>
 				<Item Name="Vector 2D To SDL Point.vi" Type="VI" URL="../Application Specific/Utility VIs/Vector 2D To SDL Point.vi"/>
 				<Item Name="Viewport Sizes.vi" Type="VI" URL="../Application Specific/Utility VIs/Viewport Sizes.vi"/>
 				<Item Name="Wrap Position To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap Position To World.vi"/>
