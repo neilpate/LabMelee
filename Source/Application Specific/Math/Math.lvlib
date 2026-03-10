@@ -7,7 +7,6 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="Calculate New Velocity.vi" Type="VI" URL="../Calculate New Velocity.vi"/>
 		<Item Name="Divide I32 By 2.vi" Type="VI" URL="../Divide I32 By 2.vi"/>
 		<Item Name="Wrap Angle And Calculate Components.vi" Type="VI" URL="../Wrap Angle And Calculate Components.vi"/>
 		<Item Name="Wrap I32 (Zero To Max).vi" Type="VI" URL="../Wrap I32 (Zero To Max).vi"/>

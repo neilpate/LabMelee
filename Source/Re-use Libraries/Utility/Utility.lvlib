@@ -126,6 +126,6 @@
 		<Item Name="Format Timestamp To T-SQL Datetime2.vi" Type="VI" URL="../Format Timestamp To T-SQL Datetime2.vi"/>
 		<Item Name="Format T-SQL Datetime2 To Timestamp.vi" Type="VI" URL="../Format T-SQL Datetime2 To Timestamp.vi"/>
 		<Item Name="Generate Day Start And Day End Times.vi" Type="VI" URL="../Generate Day Start And Day End Times.vi"/>
-		<Item Name="Relative Seconds.vi" Type="VI" URL="../Relative Seconds.vi"/>
+		<Item Name="Relative Seconds.vim" Type="VI" URL="../Relative Seconds.vim"/>
 	</Item>
 </Library>
