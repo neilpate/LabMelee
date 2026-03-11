@@ -50,7 +50,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
-		<Item Name="Spawn Primary Weapon.vi" Type="VI" URL="../Spawn Primary Weapon.vi">
+		<Item Name="Process Primary.vi" Type="VI" URL="../Process Primary.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$O!!!!"A!%!!!!+E"Q!"Y!!"%027RF&lt;76O&gt;#ZM&gt;G.M98.T!!^&amp;&lt;'6N:7ZU,GRW9WRB=X-!'E"!!!(`````!!%-4G6X)%6M:7VF&lt;H2T!!!G1(!!(A!!%!Z"=GFM&lt;X5O&lt;(:D&lt;'&amp;T=Q!!#E&amp;S;7RP&gt;3"P&gt;81!!#2!=!!?!!!1$E&amp;S;7RP&gt;3ZM&gt;G.M98.T!!!*18*J&lt;'^V)'FO!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!A!!?!!!!!!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -58,6 +58,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
+		<Item Name="Process Secondary.vi" Type="VI" URL="../Process Secondary.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$O!!!!"A!%!!!!+E"Q!"Y!!"%027RF&lt;76O&gt;#ZM&gt;G.M98.T!!^&amp;&lt;'6N:7ZU,GRW9WRB=X-!'E"!!!(`````!!%-4G6X)%6M:7VF&lt;H2T!!!G1(!!(A!!%!Z"=GFM&lt;X5O&lt;(:D&lt;'&amp;T=Q!!#E&amp;S;7RP&gt;3"P&gt;81!!#2!=!!?!!!1$E&amp;S;7RP&gt;3ZM&gt;G.M98.T!!!*18*J&lt;'^V)'FO!&amp;1!]!!-!!!!!!!#!!-!!!!!!!!!!!!!!!!!!!!%!A!!?!!!!!!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#3!!!!!!%!"1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
 	<Item Name="Sub VIs" Type="Folder">
