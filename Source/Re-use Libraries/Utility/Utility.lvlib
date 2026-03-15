@@ -77,6 +77,7 @@
 		<Item Name="Auto Resize Table Columns.vi" Type="VI" URL="../UI/Auto Resize Table Columns.vi"/>
 		<Item Name="Convert Boolean To Disabled.vi" Type="VI" URL="../Convert Boolean To Disabled.vi"/>
 		<Item Name="Error Dialogue - Out of Range.vi" Type="VI" URL="../UI/Error Dialogue - Out of Range.vi"/>
+		<Item Name="Fix Transparency.vi" Type="VI" URL="../Fix Transparency.vi"/>
 		<Item Name="Password Entry Dialogue.vi" Type="VI" URL="../UI/Password Entry Dialogue.vi"/>
 		<Item Name="Populate Chart Channel Names.vi" Type="VI" URL="../Populate Chart Channel Names.vi"/>
 		<Item Name="Populate Graph Channel Names.vi" Type="VI" URL="../Populate Graph Channel Names.vi"/>

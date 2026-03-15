@@ -143,13 +143,15 @@
 			</Item>
 			<Item Name="App Info.lvlib" Type="Library" URL="../Re-use Libraries/Application Info/App Info.lvlib"/>
 			<Item Name="ByRef Variant Repository.lvlib" Type="Library" URL="../Re-use Libraries/DVR Variant Repository/ByRef Variant Repository.lvlib"/>
+			<Item Name="Collision.lvlib" Type="Library" URL="../Re-use Libraries/Collision/Collision.lvlib"/>
 			<Item Name="Elapsed Time.lvclass" Type="LVClass" URL="../Re-use Libraries/Elapsed Time/Elapsed Time.lvclass"/>
 			<Item Name="Timer.lvclass" Type="LVClass" URL="../Re-use Libraries/Timer/Timer.lvclass"/>
 			<Item Name="Utility.lvlib" Type="Library" URL="../Re-use Libraries/Utility/Utility.lvlib"/>
-			<Item Name="Vector 2D.lvclass" Type="LVClass" URL="../Application Specific/Vector 2D/Vector 2D.lvclass"/>
+			<Item Name="Vector 2D.lvclass" Type="LVClass" URL="../Re-use Libraries/Vector 2D/Vector 2D.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Camera Tests.lvclass" Type="LVClass" URL="../Tests/Camera/Camera Tests.lvclass"/>
+			<Item Name="Collision Tests.lvclass" Type="LVClass" URL="../Tests/Collision/Collision Tests.lvclass"/>
 			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
 			<Item Name="Renderer Tests.lvclass" Type="LVClass" URL="../Tests/Renderer/Renderer Tests.lvclass"/>
 			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
