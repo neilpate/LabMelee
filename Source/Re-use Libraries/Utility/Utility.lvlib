@@ -94,7 +94,9 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Range.ctl" Type="VI" URL="../Typedef/Range.ctl"/>
+		<Item Name="Axis Aligned Bounding Box.ctl" Type="VI" URL="../Typedef/Axis Aligned Bounding Box.ctl"/>
 		<Item Name="Boolean Indicator State.ctl" Type="VI" URL="../Typedef/Boolean Indicator State.ctl"/>
+		<Item Name="Line.ctl" Type="VI" URL="../Typedef/Line.ctl"/>
 	</Item>
 	<Item Name="Variant" Type="Folder">
 		<Item Name="Unflatten String To Variant.vi" Type="VI" URL="../Variant/Unflatten String To Variant.vi"/>
