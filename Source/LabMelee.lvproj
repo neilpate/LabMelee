@@ -89,6 +89,7 @@
 				<Item Name="Time.vi" Type="VI" URL="../Application Specific/Utility VIs/Time.vi"/>
 				<Item Name="Vector 2D To SDL Point.vi" Type="VI" URL="../Application Specific/Utility VIs/Vector 2D To SDL Point.vi"/>
 				<Item Name="Viewport Sizes.vi" Type="VI" URL="../Application Specific/Utility VIs/Viewport Sizes.vi"/>
+				<Item Name="World Point To Local.vi" Type="VI" URL="../Application Specific/Utility VIs/World Point To Local.vi"/>
 				<Item Name="Wrap Position To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap Position To World.vi"/>
 			</Item>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
@@ -154,6 +155,7 @@
 			<Item Name="Collision Tests.lvclass" Type="LVClass" URL="../Tests/Collision/Collision Tests.lvclass"/>
 			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
 			<Item Name="Renderer Tests.lvclass" Type="LVClass" URL="../Tests/Renderer/Renderer Tests.lvclass"/>
+			<Item Name="Utility.lvclass" Type="LVClass" URL="../Tests/Utility/Utility.lvclass"/>
 			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
 		</Item>
 		<Item Name="Helper.vi" Type="VI" URL="../Helper.vi"/>
