@@ -92,6 +92,9 @@
 				<Item Name="World Point To Local.vi" Type="VI" URL="../Application Specific/Utility VIs/World Point To Local.vi"/>
 				<Item Name="Wrap Position To World.vi" Type="VI" URL="../Application Specific/Utility VIs/Wrap Position To World.vi"/>
 			</Item>
+			<Item Name="Visuals" Type="Folder">
+				<Item Name="Sprite Font.lvclass" Type="LVClass" URL="../Application Specific/Sprite Font/Sprite Font.lvclass"/>
+			</Item>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Application Specific/Camera/Camera.lvclass"/>
 			<Item Name="Control State.lvclass" Type="LVClass" URL="../Application Specific/Control State/Control State.lvclass"/>
 			<Item Name="Globals.vi" Type="VI" URL="../Application Specific/Globals.vi"/>
@@ -155,6 +158,7 @@
 			<Item Name="Collision Tests.lvclass" Type="LVClass" URL="../Tests/Collision/Collision Tests.lvclass"/>
 			<Item Name="Example Test.lvclass" Type="LVClass" URL="../Tests/Example Test/Example Test.lvclass"/>
 			<Item Name="Renderer Tests.lvclass" Type="LVClass" URL="../Tests/Renderer/Renderer Tests.lvclass"/>
+			<Item Name="Sprite Font Tests.lvclass" Type="LVClass" URL="../Tests/Sprite Font/Sprite Font Tests.lvclass"/>
 			<Item Name="Utility.lvclass" Type="LVClass" URL="../Tests/Utility/Utility.lvclass"/>
 			<Item Name="Vector 2D Tests.lvclass" Type="LVClass" URL="../Tests/Maths/Vector 2D/Vector 2D Tests.lvclass"/>
 		</Item>
