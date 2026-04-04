@@ -178,86 +178,30 @@
 				<Property Name="Bld_buildSpecName" Type="Str">LabMelee</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/LabMelee</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Reuse Libraries/Project Utilities/Build Tools.lvlib/Post-Build Action - Rename AppName Section.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D9548488-97F4-4064-B5AA-AF4BD6AFDAE9}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabMelee.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/LabMelee/LabMelee.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/NI_AB_PROJECTNAME/LabMelee.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/LabMelee/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Icons</Property>
-				<Property Name="Destination[2].path" Type="Path">../Builds/LabMelee/Data/Icons</Property>
+				<Property Name="Destination[2].path" Type="Path">../Builds/NI_AB_PROJECTNAME/Data/Icons</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C94275CC-CCC7-45DF-B57E-8C88F9693757}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15808D81-8A87-4DDF-998C-9BB088366AE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Launcher/Launcher Actor.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/On-Screen Keyboard Window.lvclass/Framework/Process.vi</Property>
-				<Property Name="Source[10].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[10].properties[0].value" Type="Str">Floating</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/On-Screen Keyboard (Numeric) Window.lvclass/Framework/Process.vi</Property>
-				<Property Name="Source[11].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[11].properties[0].value" Type="Str">Floating</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - Two Button.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[12].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[2].type" Type="Str">Show vertical scroll bar</Property>
-				<Property Name="Source[12].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[12].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[4].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[12].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[5].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[12].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[6].type" Type="Str">Show fp when called</Property>
-				<Property Name="Source[12].properties[6].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[7].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[12].properties[7].value" Type="Str">Modal</Property>
-				<Property Name="Source[12].properties[8].type" Type="Str">Allow user to close window</Property>
-				<Property Name="Source[12].properties[8].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[9].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[12].properties[9].value" Type="Str">Centered</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">10</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - One Button.vi</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[2].type" Type="Str">Show vertical scroll bar</Property>
-				<Property Name="Source[13].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[13].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[4].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[13].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[5].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[13].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[6].type" Type="Str">Show fp when called</Property>
-				<Property Name="Source[13].properties[6].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[7].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[13].properties[7].value" Type="Str">Modal</Property>
-				<Property Name="Source[13].properties[8].type" Type="Str">Allow user to close window</Property>
-				<Property Name="Source[13].properties[8].value" Type="Bool">false</Property>
-				<Property Name="Source[13].properties[9].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[13].properties[9].value" Type="Str">Centered</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">10</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Error Handler/Error Handler Actor.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
@@ -281,10 +225,9 @@
 				<Property Name="Source[2].properties[9].value" Type="Str">Centered</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Main Loop/Process.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Reuse Libraries/Minimal Actor Framework/Actors/Debugger/Debugger.lvclass/Framework/Process.vi</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Show vertical scroll bar</Property>
@@ -298,90 +241,78 @@
 				<Property Name="Source[3].properties[6].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[3].properties[6].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[7].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[3].properties[7].value" Type="Str">Default</Property>
+				<Property Name="Source[3].properties[7].value" Type="Str">Floating</Property>
 				<Property Name="Source[3].properties[8].type" Type="Str">Allow user to close window</Property>
 				<Property Name="Source[3].properties[8].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[9].type" Type="Str">Window run-time position</Property>
 				<Property Name="Source[3].properties[9].value" Type="Str">Unchanged</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Reuse Libraries/Minimal Actor Framework/Actors/Debugger/Debugger.lvclass/Framework/Process.vi</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Show vertical scroll bar</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[5].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[4].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[6].type" Type="Str">Show fp when called</Property>
-				<Property Name="Source[4].properties[6].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[7].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[4].properties[7].value" Type="Str">Floating</Property>
-				<Property Name="Source[4].properties[8].type" Type="Str">Allow user to close window</Property>
-				<Property Name="Source[4].properties[8].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[9].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[4].properties[9].value" Type="Str">Unchanged</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">10</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Error Handler/Error Handler Actor.lvclass/API/Launch.vi</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Reuse Framework/Notify Icon.lvclass/Icons</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Application Specific/Actors/Core/Error Handler/Error Handler Actor.lvclass/API/Launch.vi</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Initialise/Initialise Actors.vi</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - Two Button.vi</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[2].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[4].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[5].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[6].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[6].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[6].properties[6].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[7].type" Type="Str">Window behavior</Property>
+				<Property Name="Source[6].properties[7].value" Type="Str">Modal</Property>
+				<Property Name="Source[6].properties[8].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[6].properties[8].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[9].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[6].properties[9].value" Type="Str">Centered</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Main Controller Actor.lvclass/Framework/Initialise/Initialise Actors.vi</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Reuse Libraries/Utility.lvlib/GUI/Modal Dialogues/Dialogue - One Button.vi</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[5].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[7].properties[5].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[6].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[7].properties[6].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[7].type" Type="Str">Window behavior</Property>
+				<Property Name="Source[7].properties[7].value" Type="Str">Modal</Property>
+				<Property Name="Source[7].properties[8].type" Type="Str">Allow user to close window</Property>
+				<Property Name="Source[7].properties[8].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[9].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[7].properties[9].value" Type="Str">Centered</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">10</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[8].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Window behavior</Property>
-				<Property Name="Source[9].properties[0].value" Type="Str">Modal</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Window has title bar</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[2].type" Type="Str">Show vertical scroll bar</Property>
-				<Property Name="Source[9].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[3].type" Type="Str">Show menu bar</Property>
-				<Property Name="Source[9].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[4].type" Type="Str">Show horizontal scroll bar</Property>
-				<Property Name="Source[9].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[5].type" Type="Str">Show toolbar</Property>
-				<Property Name="Source[9].properties[5].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[6].type" Type="Str">Show Abort button</Property>
-				<Property Name="Source[9].properties[6].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[7].type" Type="Str">Show fp when called</Property>
-				<Property Name="Source[9].properties[7].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[8].type" Type="Str">Allow user to close window</Property>
-				<Property Name="Source[9].properties[8].value" Type="Bool">false</Property>
-				<Property Name="Source[9].properties[9].type" Type="Str">Window run-time position</Property>
-				<Property Name="Source[9].properties[9].value" Type="Str">Centered</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">10</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LabMelee</Property>
 				<Property Name="TgtF_internalName" Type="Str">LabMelee</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Granroth (Pty) Ltd</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 Neil Pate</Property>
 				<Property Name="TgtF_productName" Type="Str">LabMelee</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0D50387D-BF3F-4305-8ED3-17907EDB00BD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LabMelee.exe</Property>
