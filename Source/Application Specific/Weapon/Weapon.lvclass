@@ -23,6 +23,15 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Item Name="get Damage.vi" Type="VI" URL="../get Damage.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#2!!!!"!!%!!!!$5!$!!:%97VB:W5!!#2!=!!?!!!1$F&gt;F98"P&lt;CZM&gt;G.M98.T!!!*6W6B='^O)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!#!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!%!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342971904</Property>
+		</Item>
 		<Item Name="Initialise Weapon.vi" Type="VI" URL="../Initialise Weapon.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!"A!%!!!!*E"Q!"Y!!"!/6W6B='^O,GRW9WRB=X-!!!J8:7&amp;Q&lt;WYA&lt;X6U!!!.1!-!"E2B&lt;7&amp;H:1!!5Q$RZ&gt;&gt;SWA!!!!)027RF&lt;76O&gt;#ZM&gt;G.M98.T$V"M98FF=C"5?8"F,G.U&lt;!!L1"9!!Q&gt;/:86U=G&amp;M#&amp;"M98FF=C!R#&amp;"M98FF=C!S!!60&gt;WZF=A!E1(!!(A!!%!Z8:7&amp;Q&lt;WYO&lt;(:D&lt;'&amp;T=Q!!#6&gt;F98"P&lt;C"J&lt;A"B!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!#!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!&amp;!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
